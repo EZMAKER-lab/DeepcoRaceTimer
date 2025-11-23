@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ESP32-C3 SuperMini USB Serial -->
+    <!-- Vendor ID와 Product ID는 ESP32-C3 기본값입니다 -->
+    <!-- 필요시 실제 장치의 VID/PID로 수정하세요 -->
+    <usb-device vendor-id="12346" product-id="32823" />
+    
+    <!-- 대부분의 USB Serial 장치를 지원하려면 아래 추가 -->
+    <!-- CH340 -->
+    <usb-device vendor-id="6790" product-id="29987" />
+    <!-- CP2102 -->
+    <usb-device vendor-id="4292" product-id="60000" />
+    <!-- FTDI -->
+    <usb-device vendor-id="1027" product-id="24577" />
+</resources>

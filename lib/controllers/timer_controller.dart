@@ -126,7 +126,7 @@ class TimerController extends ChangeNotifier {
   }
 
   /// 센서 감지 시 자동 정지
-  void _autoStop() async {
+  void _autoStop() {
     if (_state != TimerState.running) return;
 
     _timer?.cancel();
